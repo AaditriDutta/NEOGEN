@@ -14,3 +14,10 @@ root.render(
     </UserContextProvider>
   </React.StrictMode>
 );
+
+// Entry point for NEOGEN app
+// - Wraps App component with React.StrictMode for highlighting potential issues
+// - Provides global state via UserContextProvider
+// - Integrates react-hot-toast for toast notifications
+// - Renders App inside root DOM element
+

@@ -16,3 +16,13 @@ export default function Button(props) {
     <button {...props} className={`${buttonClasses} ${props.className}`} />
   )
 }
+/**
+ * Button.jsx
+ * ---------------------
+ * 🔘 Custom theme-aware button component
+ * 
+ * ✅ Adapts styling based on darkTheme from UserContext
+ * ✅ Supports extra props and className via spread operator
+ * ✅ Includes hover & active states for both light/dark modes
+ */
+

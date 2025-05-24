@@ -97,3 +97,16 @@ export default function CommentForm(props) {
     </div>
   );
 }
+
+/**
+ * CommentForm.jsx
+ * ---------------------
+ * 📝 Renders a comment input form with support for markdown-style text
+ *
+ * ✅ Uses global user and theme from UserContext
+ * ✅ Accepts `rootId` and `parentId` to associate the new comment correctly
+ * ✅ Calls backend API to post a new comment on submit
+ * ✅ Notifies user via toast (success or error)
+ * ✅ Can optionally cancel reply with a close (X) button
+ * ✅ Supports optional `addComment()` callback to refresh comments after posting
+ */

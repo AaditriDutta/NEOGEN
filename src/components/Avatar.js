@@ -13,3 +13,13 @@ export default function Avatar(props) {
     </div>
   );
 }
+
+/**
+ * Avatar.jsx
+ * ---------------------
+ * 👤 Renders a user avatar with initial
+ * 
+ * ✅ Uses UserContext for dark/light mode styling
+ * ✅ Displays first letter of author's name (capitalized)
+ * ✅ Circular border with theme-aware colors
+ */

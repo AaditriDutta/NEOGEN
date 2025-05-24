@@ -32,3 +32,17 @@ export default function CommentPage(props) {
     </>
   );
 }
+
+/**
+ * CommentPage.jsx
+ * ------------------------
+ * 💬 Page component to render a single comment thread using a URL parameter
+ *
+ * ✅ Extracts comment `id` from the URL using `useParams()`
+ * ✅ Fetches the comment data from the backend API using the extracted ID
+ * ✅ Stores the fetched comment in local state (optional backup for rendering)
+ * ✅ Passes the comment ID to the `Comment` component for threaded rendering
+ * ✅ Also sets `postParamsId` in the global `UserContext` (for shared access)
+ * ✅ Previously had inline rendering logic for comment post, now centralized in <Comment />
+ */
+

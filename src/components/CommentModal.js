@@ -54,3 +54,16 @@ export default function CommentModal() {
     </>
   );
 }
+
+/**
+ * CommentModal.jsx
+ * ------------------------
+ * 💬 Modal component to display a full comment thread
+ *
+ * ✅ Fetches full comment data from backend using `commentId` from context
+ * ✅ Wrapped in a blurred backdrop and centered on screen
+ * ✅ Uses ClickOutHandler to close modal when clicked outside
+ * ✅ On close, clears comment state, resets commentId, and navigates back to "/"
+ * ✅ Uses `Comment` component to render comment thread inside the modal
+ * ✅ Styling adapts based on dark or light theme from context
+ */

@@ -92,3 +92,12 @@ function App() {
 }
 
 export default App;
+
+// Main App component for NEOGEN platform
+// - Applies global dark/light theme using styled-components
+// - Fetches user profile on load using axios and stores in context
+// - Displays loading spinner until profile is fetched
+// - Uses React Router for routing and dynamic page rendering
+// - Renders various modals: Auth, Logout, Post CRUD, User update
+// - Uses Context API to manage user/session/theme state
+

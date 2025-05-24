@@ -79,3 +79,8 @@ function UserContextProvider({ children }) {
 }
 
 export { UserContext, UserContextProvider };
+
+// Global UserContext provider for NEOGEN app
+// - Manages app-wide states: theme, user, modals, post & comment data
+// - Provides context values to all components via React Context API
+// - Includes helper function to fetch comments using axios

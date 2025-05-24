@@ -80,3 +80,15 @@ export default function Comment(props) {
     </>
   );
 }
+
+/**
+ * Comment.jsx
+ * ---------------------
+ * 💬 Displays a single comment thread with nested replies
+ * 
+ * ✅ Fetches root comment and its replies using commentId
+ * ✅ Renders main comment (via <Posts />) and reply form (via <CommentForm />)
+ * ✅ Shows nested comments using <ShowComments />
+ * ✅ Manages votes & totals using backend API
+ * ✅ Uses CommentRefreshContext to sync nested comment updates and votes
+ */
